@@ -1,0 +1,117 @@
+.discover{
+    width: 1180px;
+    height: 484px;
+    flex-shrink: 0;
+    margin-top: 83px;
+    margin-left: 93px;
+    display: flex;
+    &__text{
+        width: 585px;
+        height:400px;
+        flex-shrink: 0;
+        padding-top: 20px;
+        
+    }
+    &__h2{
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__p{
+        width: 585px;
+        color: #707070;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px; /* 170% */
+        margin-top: 29px;
+    }
+    &__btn{
+        @include btn;
+        margin-top: 29px;
+        
+    }
+    &__img{
+        margin-left: 136px;
+    }
+}
+.style{
+    margin-top: 100px;
+    width: 1180px;
+    height: 542px;
+    flex-shrink: 0;
+    margin-left: 93px;
+    &__h2{
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 193px;
+    }
+    &__p{
+        width: 980px;
+        margin-top: 16px;
+        color: #707070;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px; /* 170% */
+        padding-left: 210px;
+    }
+    &__list{
+        display: flex;
+        margin-top: 32px;
+        
+    }
+    &__item{
+    width: 280px;
+    height: 364px;
+    flex-shrink: 0;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    margin-left: 20px;
+    }
+    &__h3{
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        padding-top: 13px;
+    }
+    &__c{
+        color: #1E1E1E;
+        font-family: Playfair Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        padding-top: 8px;
+    }
+    &__d{
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        padding-top: 6px;
+    }
+    &__btn{
+        @include btn;
+        margin-left: 73px;
+        margin-top: 18px;
+        
+    }
+}

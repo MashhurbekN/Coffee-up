@@ -1,0 +1,93 @@
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 768px;
+    align-items: center;
+    color: #FFF;
+       .img{
+        padding-left: 93px;
+        margin-top: -650px; 
+       }
+        &__list{
+        list-style: none;
+        margin-top: -630px;
+        display: flex;
+    }
+            &__item{
+                color: #FFF;
+                font-family: Playfair Display;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                
+                line-height: normal;  
+                padding-right: 60px;  
+            }
+            &__sing{
+                color: #FFF;
+                font-family: Playfair Display;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                
+                line-height: normal;  
+                padding-left:220px;
+                padding-right: 35px;
+            }
+           
+                            .btn{
+                                width: 100px;
+                                height: 48px;
+                                flex-shrink: 0;
+                                border-radius: 24px;
+                                background: #F9C06A;
+                                box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+                                color: #1E1E1E;
+                                font-family: Playfair Display;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                margin-top: -15px;
+                                border: none;
+                                margin-right: 93px;
+                            }
+}
+
+.text{
+    margin-top: -556px;
+    padding-left: 93px;
+    &__h3{
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__h2{
+        color: #FFF;
+        font-family: Clicker Script;
+        font-size: 220px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__p{
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px; /* 170% */
+    }
+    &__btn{
+        @include btn;
+        margin-top: 20px;
+        margin-bottom: 95px;
+        border: none;
+    }
+}
+   

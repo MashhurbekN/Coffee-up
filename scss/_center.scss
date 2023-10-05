@@ -1,0 +1,232 @@
+.diffrent {
+    width: 1180px;
+    height: 612px;
+    flex-shrink: 0;
+    margin-left: 93px;
+    margin-top: 83px;
+
+    &__h2 {
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__p {
+        width: 980px;
+        color: #707070;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        /* 170% */
+        padding-left: 200px;
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    &__item {
+        width: 280px;
+        height: 284px;
+        flex-shrink: 0;
+        margin-left: 20px;
+        border: 1px solid rgba(249, 192, 106, 0.42);
+        background: #FFF9F1;
+    }
+
+    &__item1 {
+        width: 280px;
+        height: 284px;
+        flex-shrink: 0;
+        margin-left: 20px;
+        background: #FFEED8;
+    }
+
+    &__img {
+        padding-left: 100px;
+        padding-top: 36px;
+    }
+
+    &__h3 {
+        padding-top: 25px;
+        text-align: center;
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__m {
+        color: #707070;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 8px;
+    }
+
+    &__c {
+        color: #707070;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 32px;
+    }
+
+    &__h4 {
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    &__btn {
+        @include btn;
+        margin-left: 523px;
+        margin-top: 23px;
+    }
+}
+
+.cup {
+    background: url(/img/Rectangle\ 14.png), lightgray 50% / cover no-repeat;
+    width: 1366px;
+    height: 574px;
+    flex-shrink: 0;
+
+
+    &__h2 {
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 135px;
+        padding-left: 93px;
+    }
+
+    &__p {
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        /* 170% */
+        padding-top: 22px;
+        padding-left: 97px;
+    }
+
+    &__btn {
+        @include btn;
+        margin-top: 22px;
+        margin-left: 93px;
+    }
+}
+
+.manager {
+    width: 1062px;
+    height: 747px;
+    flex-shrink: 0;
+    margin-left: 180px;
+    margin-top: 83px;
+
+    &__h2 {
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__p {
+        width: 980px;
+        text-align: center;
+        padding-left: 100px;
+        padding-top: 16px;
+        color: #707070;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        /* 170% */
+    }
+
+    &__text {
+        width: 980px;
+        height: 524px;
+        flex-shrink: 0;
+        border: 1px solid rgba(249, 192, 106, 0.42);
+        background: #FFF9F1;
+        margin-top: 45px;
+        margin-left: 41px;
+    }
+
+    &__w {
+        padding-left: 27px;
+
+        margin-top: 54px;
+    }
+
+    &__m {
+        color: #707070;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        /* 200% */
+    }
+
+    &__h3 {
+        color: $coffee;
+        font-family: Playfair Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    &__c {
+        color: #707070;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        /* 170% */
+        padding-top: 4px;
+    }
+
+    &__span {
+        margin-left: 434px;
+
+    }
+}

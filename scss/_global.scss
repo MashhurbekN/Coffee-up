@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li,a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+header{
+    background-image: url(/img/background.svg);
+    background-size: cover;
+}
+.container{
+    width:1366px ;
+    margin:  0 auto;
+}
